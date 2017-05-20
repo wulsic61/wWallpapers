@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- ======================================================================================= -->
+    <!-- ============================== DASHBOARD CONFIGURATIONS =============================== -->
+    <!-- ======================================================================================= -->
+
+    <!-- CONFIG: APPLICATION NAME -->
+
+    <string name="app_name">WallpaperBoard Demo</string>
+
+    <!-- CONFIG: DEFAULT THEME -->
+
+    <!-- Use dark theme as default theme -->
+    <bool name="use_dark_theme">false</bool>
+
+    <!-- Enable or disable shadow
+    * Include:
+    * Toolbar, card, and list shadow -->
+    <bool name="enable_shadow">true</bool>
+
+    <!-- CONFIG: MUZEI -->
+
+    <!-- Muzei art source name -->
+    <string name="muzei_art_source_name">Your Art Source Name</string>
+
+    <!-- Muzei art source description -->
+    <string name="muzei_art_source_desc">Your Art Source Description</string>
+
+    <!-- Muzei base color -->
+    <color name="muzei_color">#F44336</color>
+
+    <!-- CONFIG: TOOLBAR -->
+
+    <!-- Toolbar title -->
+    <string name="toolbar_title">Wallpaper Board</string>
+
+    <!-- CONFIG: Wallpapers -->
+
+    <!-- Email that will be used to send crash report
+    * If you don't want to use custom crash report, just set dev_email to empty
+    * example: <string name="dev_email"></string>
+    * Default crash report will be used, you can check crash report from developer console -->
+    <string name="dev_email"></string>
+
+    <!-- Wallpaper json link -->
+    <string name="wallpaper_json">https://drive.google.com/uc?id=0B0f4ypHfNKm5ekphR1RZTWVPYWM</string>
+
+    <!-- Allow to download wallpaper
+    * If disabled user only able to apply wallpaper from dashboard -->
+    <bool name="enable_wallpaper_download">true</bool>
+
+    <!-- Wallpapers grid preview quality
+    * Image quality when displaying wallpapers in grid
+    * Higher value means higher quality, more RAM usage
+    * Lower value means lower quality, minimal RAM usage -->
+    <integer name="wallpaper_grid_preview_quality">4</integer>
+
+    <!-- Rounded corner wallpaper card
+    * NOTE: Only for Android Lollipop and above, automatically disabled on Android below Lollipop -->
+    <bool name="enable_wallpaper_card_rounded_corner">false</bool>
+
+    <!-- CONFIG: NAVIGATION VIEW HEADER -->
+
+    <!-- Navigation view header image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension
+    * ex: navigation_view_header.png -> navigation_view_header
+    * If you want to use solid color, you can put hex color code here
+    * ex: <string name="navigation_view_header">#000000</string> -->
+    <string name="navigation_view_header">https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_10.jpg</string>
+
+    <!-- Navigation view header text
+    * Leave empty if you don't want to show any text -->
+    <string name="navigation_view_header_title">Wallpaper Board</string>
+
+    <!-- Navigation view header style
+    * Available choices:
+    * mini
+    * normal
+    -->
+    <string name="navigation_view_header_style">normal</string>
+
+    <!-- CONFIG: ABOUT -->
+
+    <!-- About header image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension (ex: about_image.png -> about_image)
+    * If you want to use solid color, you can put hex color code here
+    * ex: <string name="about_image">#000000</string> -->
+    <string name="about_image">https://c.slashgear.com/wp-content/uploads/2015/08/AndroidMarshmallow_10.jpg</string>
+
+    <!-- About profile image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension (ex: about_profile_image.png -> about_profile_image) -->
+    <string name="about_profile_image">https://lh3.googleusercontent.com/-KBI2HdgNtN0/AAAAAAAAAAI/AAAAAAAABpc/icnuAgrjOT4/s256-p-rw-no/photo.jpg</string>
+
+    <!-- About title above description -->
+    <string name="about_title">Wallpaper Board</string>
+
+    <!-- About description below title -->
+    <string name="about_desc"><![CDATA[
+        About description supports html formatting, <b>bold description</b>,
+        <i>italic description</i>, <u>underline description</u>,
+        <a href="https://github.com/danimahardhika">link inside description</a>.
+        ]]></string>
+
+    <!-- Email that showed in about
+    * This part must be email
+    * If you don't want to show email in about, just set about_email to empty
+    * ex: <string name="about_email"></string> -->
+    <string name="about_email_title">Email</string>
+    <string name="about_email">your@email.com</string>
+
+    <!-- Link 1 showed in about
+    * Link 1 must be included, link 2 is optional
+    * You can change this to another link, like facebook, twitter etc
+    * ex:
+    * <string name="about_link_1_title">Facebook</string>
+    * <string name="about_link_1_url">http://facebook.com/yourlink</string> -->
+    <string name="about_link_1_title">Google+</string>
+    <string name="about_link_1_url">http://plus.google.com/xxxx</string>
+
+    <!-- Link 2 showed in about
+    * Link 2 is optional, if you don't want to show link 2, just set about_link_2_url to empty
+    * ex: <string name="about_link_2_url"></string>
+    * You can change this to another link, like facebook, twitter etc
+    * ex:
+    * <string name="about_link_2_title">Facebook</string>
+    * <string name="about_link_2_url">http://facebook.com/yourlink</string> -->
+    <string name="about_link_2_title">Website</string>
+    <string name="about_link_2_url">http://yourwebsite.com</string>
+
+    <!-- Contributors dialog
+    * Take a look inside values/xml/contributors.xml to add contributors -->
+    <bool name="show_contributors_dialog">true</bool>
+
+    <!-- CONFIG: DONATE -->
+
+    <!-- DONATION
+    * Show support development option in navigation view
+    * default: true
+    * change to false to disable it -->
+    <bool name="enable_donation">true</bool>
+
+    <!-- Take a look inside License.java for donation product -->
+
+</resources>

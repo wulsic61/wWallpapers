@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Navigation View -->
+    <string name="navigation_view_wallpapers">Wallpapers</string>
+    <string name="navigation_view_favorites">Favorites</string>
+    <string name="navigation_view_settings">Settings</string>
+    <string name="navigation_view_about">About</string>
+    <string name="navigation_view_donate">Support Development</string>
+
+    <!-- Menu -->
+    <string name="menu_search">Search</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_save">Save to Device</string>
+    <string name="menu_wallpaper_settings">Wallpaper Settings</string>
+
+    <!-- Dialog -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="clear">Clear</string>
+    <string name="donate">Donate</string>
+
+    <!-- Tap Intro -->
+    <string name="tap_intro_wallpapers_navigation">Navigation drawer</string>
+    <string name="tap_intro_wallpapers_navigation_desc">Tap here or swipe from left edge of the screen to open navigation drawer</string>
+    <string name="tap_intro_wallpapers_search">Search</string>
+    <string name="tap_intro_wallpapers_search_desc">Tap here to search wallpaper</string>
+    <string name="tap_intro_wallpapers_filter">Filter wallpaper</string>
+    <string name="tap_intro_wallpapers_filter_desc">Tap here to filter wallpaper by category</string>
+    <string name="tap_intro_wallpapers_option">Wallpaper options</string>
+    <string name="tap_intro_wallpapers_option_desc">Tap and hold here to show wallpaper options, %s apply wallpaper.</string>
+    <string name="tap_intro_wallpapers_option_desc_download">download or</string>
+    <string name="tap_intro_wallpapers_preview">Preview wallpaper</string>
+    <string name="tap_intro_wallpapers_preview_desc">Tap here to preview full size of the wallpaper</string>
+    <string name="tap_intro_wallpapers_favorite">Favorite wallpaper</string>
+    <string name="tap_intro_wallpapers_favorite_desc">Tap here to mark wallpaper as favorite</string>
+    <string name="tap_intro_wallpaper_preview_settings">Wallpaper settings</string>
+    <string name="tap_intro_wallpaper_preview_settings_desc">Tap here to open wallpaper settings.
+        Enable set wallpaper as lockscreen background on Android Nougat or enable wallpaper crop.</string>
+    <string name="tap_intro_wallpaper_preview_save">Save wallpaper</string>
+    <string name="tap_intro_wallpaper_preview_save_desc">Tap here to download and save wallpaper to your device so you can use it later</string>
+    <string name="tap_intro_wallpaper_preview_apply">Apply wallpaper</string>
+    <string name="tap_intro_wallpaper_preview_apply_desc">Tap here to set wallpaper as homescreen background</string>
+
+    <!-- Wallpapers -->
+    <string name="wallpaper_new_added">New Wallpaper</string>
+    <string name="wallpaper_filter">Filter by Category</string>
+    <string name="wallpaper_downloading">Downloading wallpaper …</string>
+    <string name="wallpaper_download_exist">Wallpaper with name %s already exist, do you want to replace it?</string>
+    <string name="wallpaper_download_exist_replace">Replace</string>
+    <string name="wallpaper_download_exist_new">Create New</string>
+    <string name="wallpaper_download_failed">Unable to download wallpaper</string>
+    <string name="wallpaper_download_cancelled">Wallpaper download cancelled</string>
+    <string name="wallpaper_downloaded">Wallpaper downloaded to</string>
+    <string name="wallpaper_loading">Loading wallpaper …</string>
+    <string name="wallpaper_applying">Applying wallpaper …</string>
+    <string name="wallpaper_applied">Wallpaper applied</string>
+    <string name="wallpaper_apply_failed">Unable to apply wallpaper</string>
+    <string name="wallpaper_apply_cancelled">Wallpaper apply cancelled</string>
+    <string name="connection_failed">Unable to fetch data from server</string>
+    <string name="wallpaper_apply">Set as Wallpaper</string>
+    <string name="wallpaper_apply_crop">Wallpaper crop will be disabled if you apply from this option</string>
+
+    <string name="wallpaper_settings_crop">Wallpaper Crop</string>
+    <string name="wallpaper_settings_crop_desc">Enable wallpaper crop. Wallpaper will be cropped based on current view of wallpaper preview.
+        Pinch or double tap to zoom wallpaper.</string>
+    <string name="wallpaper_settings_lockscreen">Lockscreen Background</string>
+    <string name="wallpaper_settings_lockscreen_desc">Apply will set wallpaper as both homescreen and lockscreen background</string>
+    <string name="wallpaper_settings_lockscreen_not_available">Lockscreen background only available on Android Nougat</string>
+
+    <string name="wallpaper_favorite_added">%s added to favorite</string>
+    <string name="wallpaper_favorite_removed">%s removed from favorite</string>
+
+    <!-- Muzei -->
+    <string name="minute">Minute</string>
+    <string name="hour">Hour</string>
+
+    <string name="muzei_settings">Muzei Settings</string>
+    <string name="muzei_settings_save">Save</string>
+    <string name="muzei_settings_saved">Settings Saved</string>
+
+    <string name="muzei_refresh_duration">Refresh Duration</string>
+    <string name="muzei_refresh_duration_desc">Every</string>
+
+    <string name="muzei_wifi_only">Refresh from Wifi Only</string>
+    <string name="muzei_wifi_only_desc">Load wallpaper only if device connected to wifi</string>
+
+    <string name="muzei_category">Select Categories</string>
+    <string name="muzei_category_desc">Load wallpaper only from selected categories</string>
+
+    <!-- About -->
+    <string name="about_contributors_title">Contributors</string>
+    <string name="about_open_source_licenses">Open Source Licenses</string>
+
+    <!-- InAppBilling -->
+    <string name="billing_load_product_failed">Unable to load InApp Purchase products</string>
+
+    <!-- Preferences -->
+    <string name="pref_data_header">Data &amp; Cache</string>
+    <string name="pref_data_cache">Clear Cache</string>
+    <string name="pref_data_cache_desc">Remove image cache from your storage created
+        after loading cloud wallpaper thumbnails</string>
+    <string name="pref_data_cache_size">Cache Size: %s</string>
+    <string name="pref_data_cache_cleared">Cache Cleared</string>
+    <string name="pref_data_cache_clear_dialog">Do you really want to clear cache?</string>
+
+    <string name="pref_theme_header">Theme</string>
+    <string name="pref_theme_dark">Dark Theme</string>
+    <string name="pref_theme_dark_desc">Switch between dark or light theme</string>
+
+    <string name="pref_wallpaper_header">Wallpaper</string>
+    <string name="pref_wallpaper_location">Wallpaper Save Location</string>
+    <string name="pref_wallpaper_location_desc">Try to download at least one wallpaper first</string>
+
+    <string name="pref_language_header">Language</string>
+
+    <string name="pref_others_header">Others</string>
+    <string name="pref_others_colored_wallpaper_card">Colored Wallpaper Card</string>
+    <string name="pref_others_reset_tutorial">Reset Tutorial</string>
+    <string name="pref_others_reset_tutorial_reset">Tutorial Reset</string>
+
+    <!-- Permission -->
+    <string name="permission_storage_denied">Storage permission needed to save wallpaper</string>
+
+    <!-- Support Development -->
+    <string name="donation_success">Thank you for making a donation. I will use it for good.</string>
+
+    <!-- License -->
+    <string name="license_checking">Checking license …</string>
+    <string name="license_check">License Check</string>
+    <string name="license_check_success">License check success, thank you for downloading the app from Play Store.</string>
+    <string name="license_check_failed">License check failed, you didn\'t download this app from Play Store.
+        You will not able to use the app.</string>
+    <string name="license_check_retry">Unable to check license, please try again in a few moments</string>
+
+    <!-- Search -->
+    <string name="search_result_empty">No result found for \"%s\"</string>
+
+    <!-- Crash Report -->
+    <string name="crash_report">Crash Report</string>
+    <string name="crash_report_message">Unfortunately %s has crashed. Choose send report below to help developer fix the issue.</string>
+    <string name="crash_report_send">Send Report</string>
+    <string name="email_client">Choose Email Client</string>
+
+    <!-- Please don't modify this -->
+    <string name="about_dashboard">Wallpaper Board</string>
+    <string name="about_dashboard_dev">Wallpaper Board is open source wallpaper dashboard licensed under Apache License 2.0 for
+        Android available at GitHub and free to use, developed by Dani Mahardhika.</string>
+    <string name="about_dashboard_contributors">Wallpaper Board Contributors</string>
+    <string name="about_dashboard_translator">Wallpaper Board Translator</string>
+    <string name="about_dashboard_dev_google_plus_title">Google+</string>
+    <string name="about_dashboard_dev_google_plus_url">https://plus.google.com/u/1/+DaniMahardhika</string>
+    <string name="about_dashboard_dev_github_title">GitHub</string>
+    <string name="about_dashboard_dev_github_url">https://github.com/danimahardhika</string>
+
+    <!-- Splash screen -->
+    <string name="splash_screen_title">wWallpapers</string>
+
+    <!-- DrawerToggle -->
+    <string name="txt_open">Open</string>
+    <string name="txt_close">Close</string>
+
+</resources>
